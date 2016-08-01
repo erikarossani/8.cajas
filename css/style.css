@@ -1,18 +1,19 @@
-div{
-	background-color: aqua;
-	width: 150px;
-	height: 150px;
-	margin: 10px;
+.caja{
+	background-color: gray;
+	width: 100px;
+	height: 100px;
 	border: 1px solid black;
+	margin: 5px;
 }
-.padre{
-	width: 550px;
-	height: 180px;
-}
-.hijo{
+
+.inline-block{
 	display: inline-block;
 }
 
-.caja{
-	display: inline-block;
+.caja-grande{
+	background-color: gray;
+	border: 1px solid black;
+	padding: 5px;
+	width: 350px;
+	margin: 5px;
 }
